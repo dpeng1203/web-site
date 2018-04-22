@@ -12,7 +12,7 @@ body{
   background-position: center;
 }
 .preview{
-    max-width: 1110px;
+    max-width: 1280px;
     height: 50px;
     padding: 15px;
     /*border-color: rgba(255, 255, 255, 0.2);*/
@@ -24,7 +24,7 @@ body{
 }
 .preview li a{  
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 18px;
   margin:  15px;   
   text-decoration: none;
   color: white;
@@ -157,7 +157,6 @@ body{
   display: inline-block;
   margin: 15px;
   background-color: #fff;
-  border: 1px solid red;
   position: relative;
 }
 .photo ul li img{
@@ -217,7 +216,7 @@ body{
   border-right: 2px solid #f1f1f1;
   margin-left: -1px;
   height: 100%; 
-  z-index: -99;
+  z-index: -1;
 }
 .picture ul li:last-child{
   padding: 0;
@@ -243,6 +242,7 @@ body{
 .circular{
   display: inline-block;
   width: 156px;
+  height: 156px;
   border: 7px solid #f1f1f1;
   border-radius: 50%;
   background: #fed136;
@@ -341,7 +341,6 @@ body{
   display: block;
   padding: 20px;
   width: 80%;
-  font-size: 14px;
   color: #555;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -351,10 +350,22 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 .information, .area{
   display: inline-block;
-  width: 400px;
+  width: 500px;
+}
+.contact-us a{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  background-color: #fec503;
 }
 
 
@@ -366,7 +377,6 @@ body{
   width: 360px;
   height: 260px;
   opacity: 0;
-  /*background-image: url('http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png')*/
 }
 .wrap {
   width: 100%;
@@ -380,16 +390,17 @@ body{
 .container:hover {
   opacity: 1; 
 }
+.container .wrap .icon {
+  width: 5em; height: 5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
 
 
 /*input-placeholder样式改变*/
 ::-webkit-input-placeholder {/*Chrome/Safari*/
 　font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
-::-moz-placeholder {/*Firefox*/
-　font-family: 'Avenir', Helvetica, Arial, sans-serif;
-}
-::-ms-input-placeholder {/*IE*/
-　font-family: 'Avenir', Helvetica, Arial, sans-serif;
-}
+
