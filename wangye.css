@@ -1,0 +1,395 @@
+body{
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header{
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1350px;
+  height: 757px;
+  background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/header-bg.jpg);
+  background-position: center;
+}
+.preview{
+    max-width: 1110px;
+    height: 50px;
+    padding: 15px;
+    /*border-color: rgba(255, 255, 255, 0.2);*/
+}
+.preview ul li{
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+.preview li a{  
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin:  15px;   
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.preview li a:hover{
+  color: #fed136;
+}
+.preview >span{
+  font-size: 30px;
+  color: #fed136;
+  text-transform: capitalize;
+}
+.content{
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+.content-lead-in{
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.content-heading{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 75px;
+  margin-bottom: 70px;
+}
+.content a{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  background-color: #fec503;
+}
+.icon {
+  width: 5em; height: 5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.services{
+  max-width: 1350px;
+  text-align: center;
+}
+.services h1{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 35px;
+}
+.services h5{
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 50px;
+  color: #777;
+}
+.services-main{
+  display: flex;
+  margin: 100px 80px 150px 80px;
+  
+}
+.commerce{
+  margin: 0 15px;
+}
+.r-design{
+  margin: 0 15px;
+}
+.security{
+ margin: 0 15px;
+}
+.services-main h4{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: inherit;
+  font-size: 18px;
+}
+.services-main p{
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  font-size: 14px;
+  font-style: italic;
+}
+.portfolio{
+  max-width: 1350px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.portfolio h1{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 100px;
+  /*border: 1px solid red;*/
+}
+
+.portfolio h5{
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #777;
+}
+.photo{
+  padding-bottom: 100px;
+}
+.photo ul{
+  padding-left: 0;
+}
+.photo ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+  background-color: #fff;
+  border: 1px solid red;
+  position: relative;
+}
+.photo ul li img{
+  width: 360px;
+}
+.photo img:hover{
+  background: #fed136;
+  opacity: 0.5;
+}
+.photo li h4{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+}
+.photo li p{
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #777;
+}
+.about{
+  max-width: 1350px;
+  padding: 100px 0;
+  text-align: center;
+}
+.about h1{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+.about h5{
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  color: #777;
+}
+.picture ul{
+  padding: 0;
+  margin-top: 60px;
+}
+.picture ul li{
+  list-style: none;
+  position: relative;
+  padding: 0 0 125px 0;
+}
+.picture ul li::after{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  border-left: 2px solid #f1f1f1;
+  border-right: 2px solid #f1f1f1;
+  margin-left: -1px;
+  height: 100%; 
+  z-index: -99;
+}
+.picture ul li:last-child{
+  padding: 0;
+}
+.picture ul li img{
+  width: 156px;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+}
+.picture ul li .summary{
+  position: absolute;
+  right: 50%;
+  margin-right: 100px;
+  top: 0;
+  width: 30em;
+  text-align: right;
+}
+.picture ul li:nth-child(even) .summary{
+  left: 50%;
+  margin-left: 95px;
+  text-align: left;
+}
+.circular{
+  display: inline-block;
+  width: 156px;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+  background: #fed136;
+  /*margin-bottom: 100px;*/
+}
+.circular h6{
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: white;
+}
+.team{
+  padding: 100px 0;
+  text-align: center;
+  max-width: 1350px;
+  background-color: #f7f7f7;
+}
+.team h1{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+.team h5{
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  color: #777;
+  padding-bottom: 50px;
+}
+.team-member ul{
+  padding: 0;
+  margin: 0;
+}
+.team-member li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 60px;
+}
+.team-member li img{
+  width: 240px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+}
+.team-member .icon {
+  width: 3em; height: 3em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  padding: 5px 3px;
+}
+.team-member h4{
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+.team-member p{
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0 0 10px;
+  color: #777;
+}
+.team .footer p{
+  font-size: 16px;
+  color: #777;
+  line-height: 1.75;
+  padding-top: 50px;
+  font-style: none;
+}
+.contact-us{
+  padding: 100px 0;
+  text-align: center;
+  max-width: 1350px;
+  background-color: #222;
+  background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/map-image.png);
+  background-position: center;
+}
+.contact-us h1{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+.contact-us h5{
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  color: #777;
+}
+.input, .textarea{
+  display: block;
+  padding: 20px;
+  width: 80%;
+  font-size: 14px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 20px;
+}
+#layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information, .area{
+  display: inline-block;
+  width: 400px;
+}
+
+
+
+/*页面hover效果实现*/
+.container {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 360px;
+  height: 260px;
+  opacity: 0;
+  /*background-image: url('http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png')*/
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover {
+  opacity: 1; 
+}
+
+
+/*input-placeholder样式改变*/
+::-webkit-input-placeholder {/*Chrome/Safari*/
+　font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+::-moz-placeholder {/*Firefox*/
+　font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+::-ms-input-placeholder {/*IE*/
+　font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
